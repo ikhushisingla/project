@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / Twitter</title>  
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      <link rel="stylesheet" href="node_modules/reset.css/reset.css">
+
+
+      <link rel="stylesheet" href="style.css">
+
+      <link rel="icon" href="favicon.png">
+
+</head>
+<body>
+
+    <!-- nav bar starts -->
+    <nav >
+        <div class="nav_logo-wrapper">
+            <img class="logo" src="logo.webp" alt="">
+        </div>
+
+        <div class="Menu_options active">
+            <span class="material-icons">home</span>
+            <h2>Home</h2>
+        </div>
+
+        <div class="Menu_options">
+            <span class="material-icons">tag</span>
+            <h2>Explore</h2>
+        </div>
+
+        <div class="Menu_options">
+            <span class="material-icons">group</span>
+            <h2>Community</h2>
+        </div>
+
+        <div class="Menu_options">
+            <span class="material-icons">notifications</span>
+            <h2>Notification</h2>
+        </div>
+
+        <div class="Menu_options">
+            <span class="material-icons">email</span>
+            <h2>Messages</h2>
+        </div>
+
+        <div class="Menu_options">
+            <span class="material-icons">bookmark</span>
+            <h2>Bookmarks</h2>
+        </div> 
+
+        <div class="Menu_options">
+            <span class="material-icons">person</span>
+            <h2>Profile</h2>
+        </div> 
+
+        <div class="Menu_options">
+            <span class="material-icons">more_horiz</span>
+            <h2>More</h2>
+        </div> 
+
+        <button class="tweet_btn"><span id="textbtn">Tweet</span> <span id="tweetIcon">
+            <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/quill-with-ink.png" alt="quill-with-ink"/>
+
+
+        </span></button>
+
+        <div class="ProfileBox">
+            <div class="My_profile_name">
+              <img src="images/profilePic.png" alt="" class="profile_image" />
+              <div class="personal">
+                <div class="user_name">
+                  <div class="user_name_follow">
+                    <p class="user_id">Khushi</p>
+                    <img class="verified-img" src="verified.png" alt="" />
+                  </div>
+                  <p class="sub_user_id">@khushi</p>
+                </div>
+                <span class="ellipsisIcon"
+                  ><i class="fa-solid fa-ellipsis" style="color: #ffff"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+
+
+    </nav>
+    <!-- nav bar end -->
+
+  
+    <!-- main section start -->
+    <main>
+        <div class="header">
+            <h2>Home</h2>
+        </div>
+
+        <div class="tweet_box">
+            <form id="add-post">
+                <div class="tweet_box-input">
+                    <img src="images/profilePic.png" alt="profile image">
+                    <input autocomplete="off" id="post" type="text" placeholder="What's happening?" />
+                    <button type="submit" class="">Tweet</button>
+                </div>
+            </form>
+
+        </div>
+    <div id="posts">
+
+    </div>
+    </main>
+    <!-- main section end -->
+
+    <!-- aside element start -->
+    <aside>
+
+        <div class="aside_input">
+            <span class="material-icons aside_search-icon">search</span>
+            <input type="text" placeholder="Search Twitter">
+ 
+        </div>
+
+        <div class="aside_container">
+            <h2>What's happening?</h2>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Save the date, because <a href="https://twitter.com/hashtag/JavaOne?src=hash&amp;ref_src=twsrc%5Etfw">#JavaOne</a> is back! Join the world’s premier <a href="https://twitter.com/hashtag/developer?src=hash&amp;ref_src=twsrc%5Etfw">#developer</a> conference in Las Vegas at <a href="https://twitter.com/Oracle?ref_src=twsrc%5Etfw">@Oracle</a> CloudWorld October 16–20, 2022.<br><br>Subscribe for the latest news about registration, the call for papers, luminary speakers, and more. <a href="https://t.co/hhSf3dMGc1">https://t.co/hhSf3dMGc1</a> <a href="https://t.co/OeDFukcM8K">pic.twitter.com/OeDFukcM8K</a></p>&mdash; Java (@java) <a href="https://twitter.com/java/status/1506310994112483328?ref_src=twsrc%5Etfw">March 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </div>
+        
+    </aside>
+    <!-- aside element ends -->
+
+    
+</body>
+<script src="script.js"></script>
+</html>
